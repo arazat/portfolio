@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	--device: hsl(0,10%,30%);
 }
 
-
+/* =============== 360x560 ============ */
 body{
 	margin: 0 auto;
 	width: 360px;
@@ -94,34 +94,83 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: 'Poppins', sans-serif;
+
 
 }
 
 .ellipse{
-	margin: 67px auto;
-	height: 186px;
-	width: 186px;
+	margin: 35px auto;
+	height: 155px;
+	width: 155px;
 	background-color: var(--accent);
 	border-radius: 100%;
 
 }
 .border__ell{
-	position: relative;
-	top: -261px;
-	height: 202px;
-	width: 202px;
+	position: absolute;
+	top: 77px;
+	height: 171px;
+	width: 171px;
 	
 
-	/* border: 2px dotted #000; */
-	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23EC3463' stroke-width='7' stroke-dasharray='15' stroke-dashoffset='86' stroke-linecap='round'/%3e%3c/svg%3e");
+	border: 3px dashed var(--accent);
+	/* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23EC3463' stroke-width='7' stroke-dasharray='15' stroke-dashoffset='86' stroke-linecap='round'/%3e%3c/svg%3e"); */
 	border-radius: 100px;
 	
 }
 
 
+.title{
+	margin: 10px 0 0 0;
+	font-size: 28px;
+	
+	font-weight: 500;
+
+}
+.description{
+	font-size: 18px;
+	margin: 12px 0 0 0;
+	color: var(--accent-alt);
+
+	letter-spacing:1px ;
+
+}
+
+.more{
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 7px 0 0 0;
+	color: var(--accent);
+}
+
+.arrow__home{
+	height: 38px;
+	width: 38px;
+	/* margin: 30px 0 0 300px; */
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.arrow__home img:first-child{
+	margin: 0 0 5px 0;
+}
+.linesANDarrow{
+	margin: 10px 0 0 300px;
+
+}
+.social__network{
+	margin: 60px 0 0 0 ;
+	padding: 0 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 
 
 
+
+}
 
 
 
