@@ -1,0 +1,148 @@
+/*Îáíóëåíèå*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	/* width: 100%; */
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/* ---------- google fonts ---------  */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
+
+/* ---------- var ---------- */
+
+:root{
+	/* COLORS */
+	--bg-color: #fff ;
+	--accent: hsl(250,72%,71%);
+	--accent-alt: hsl(250,41%,33%);
+	--social-network: rgb(0,0,0,70%) ;
+	--accent-black: rgb(0,0,0,50%) ;
+	--shadow-header: rgb(0,0,0,10%) ;
+	--device: hsl(0,10%,30%);
+}
+
+
+body{
+	margin: 0 auto;
+	width: 360px;
+	height: 100vh;
+
+	background-color: var(--bg-color);
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	width: 360px;
+	height: 50px;
+	background-color: var(--bg-color);
+	box-shadow: 0 0 20px var(--shadow-header);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+
+.title__header{
+	margin: 0 0 0 19px;
+	font-family: 'Poppins' , sans-serif;
+	font-size: 18px ;
+	letter-spacing: 1px ;
+	color:  var(--accent) ;
+
+}
+
+.menu{
+	margin: 0 19px 0 0 ;
+}	
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.ellipse{
+	margin: 67px auto;
+	height: 186px;
+	width: 186px;
+	background-color: var(--accent);
+	border-radius: 100%;
+
+}
+.border__ell{
+	position: relative;
+	top: -261px;
+	height: 202px;
+	width: 202px;
+	
+
+	/* border: 2px dotted #000; */
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23EC3463' stroke-width='7' stroke-dasharray='15' stroke-dashoffset='86' stroke-linecap='round'/%3e%3c/svg%3e");
+	border-radius: 100px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
