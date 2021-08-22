@@ -86,8 +86,14 @@ header{
 
 }
 
-.menu{
+.burger{
 	margin: 0 19px 0 0 ;
+}
+.close-btn{
+	display: none;
+}
+.menu{
+	display: none;
 }	
 
 section{
